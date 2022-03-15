@@ -11,7 +11,14 @@ When rebuilding a GDI with a modified IP.BIN (e.g., shipping a translation patch
 
 Note that ODEs have no such region-flag consistency requirements.  However, for perfectionist's sake, and given that many are playing Dreamcast games via emulators, this utility can be helpful for those who do want to supply a region-modified IP.BIN with their patch.
 
-### Example usage:
+### Region Flags:
+`J` Japan/Taiwan/Philipines
+
+`U` United States/Canda
+
+`E` Europe
+
+### Example Usage:
 Generic usage:
 ```
 ip_patch <REGION> <FILE>
