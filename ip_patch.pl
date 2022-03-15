@@ -24,7 +24,7 @@ if($mode !~ /\b(?!\w*(\w)\w*\1)[JUE]+\b/i)
 # Target file is missing.
 elsif(!defined $file || $file eq "")
 {
-	$error = "Dreamcast IP.BIN Patcher\nWritten by Derek Pascarella (ateam)\n\nNo IP.BIN file specified.";
+	$error = "No IP.BIN file specified.";
 	&show_error($error);
 }
 # Target file doesn't exist, isn't readable, or isn't writable.
