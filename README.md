@@ -8,31 +8,35 @@ When rebuilding a GDI with a modified IP.BIN (e.g., shipping a translation patch
 Note that ODEs have no such region-flag consistency requirements.  However, for perfectionist's sake, and given that many are playing Dreamcast games via emulators, this utility can be helpful for those who do want to supply a region-modified IP.BIN with their patch.
 
 ### Example usage:
+Generic usage:
+```
+ip_patch <REGION> <FILE>
+```
 Patch Japan/Taiwan/Philipines region flag and text:
 ```
-.\ip_patch.exe J C:\some\path\IP.BIN
+ip_patch J C:\some\path\IP.BIN
 ```
 Patch Japan/Taiwan/Philipines and United States region flag and text:
 ```
-.\ip_patch.exe JU C:\some\path\IP.BIN
+ip_patch JU C:\some\path\IP.BIN
 ```
 Patch Japan/Taiwan/Philipines and Europe region flag and text:
 ```
-.\ip_patch.exe JE C:\some\path\IP.BIN
+ip_patch JE C:\some\path\IP.BIN
 ```
 Patch Japan/Taiwan/Philipines, United States, and Europe region flag and text:
 ```
-.\ip_patch.exe JUE C:\some\path\IP.BIN
+ip_patch JUE C:\some\path\IP.BIN
 ```
 Patch United States region flag and text:
 ```
-.\ip_patch.exe U C:\some\path\IP.BIN
+ip_patch U C:\some\path\IP.BIN
 ```
 Patch United States and Europe region flag and text:
 ```
-.\ip_patch.exe UE C:\some\path\IP.BIN
+ip_patch UE C:\some\path\IP.BIN
 ```
 Patch Europe region flag and text:
 ```
-.\ip_patch.exe E C:\some\path\IP.BIN
+ip_patch E C:\some\path\IP.BIN
 ```
