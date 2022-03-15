@@ -20,7 +20,7 @@ Patch Japan/Taiwan/Philipines region flag and text:
 ```
 ip_patch J C:\some\path\IP.BIN
 ```
-Patch Japan/Taiwan/Philipines and United States region flag and text:
+Patch Japan/Taiwan/Philipines and United States/Canada region flag and text:
 ```
 ip_patch JU C:\some\path\IP.BIN
 ```
@@ -28,11 +28,11 @@ Patch Japan/Taiwan/Philipines and Europe region flag and text:
 ```
 ip_patch JE C:\some\path\IP.BIN
 ```
-Patch Japan/Taiwan/Philipines, United States, and Europe region flag and text:
+Patch Japan/Taiwan/Philipines, United States/Canada, and Europe region flag and text:
 ```
 ip_patch JUE C:\some\path\IP.BIN
 ```
-Patch United States region flag and text:
+Patch United States/Canada region flag and text:
 ```
 ip_patch U C:\some\path\IP.BIN
 ```
