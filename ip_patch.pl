@@ -47,13 +47,13 @@ else
 	&patch_bytes($file, "20202020202020202020202020202020202020202020202020202020", 14084);
 }
 
-# Patch United States region flag and text.
+# Patch United States/Canada region flag and text.
 if($mode =~ /U/i)
 {
 	&patch_bytes($file, "55", 49);
 	&patch_bytes($file, "466F722055534120616E642043414E4144412E202020202020202020", 14116);
 }
-# Remove United States region flag and text.
+# Remove United States/Canada region flag and text.
 else
 {
 	&patch_bytes($file, "20", 49);
