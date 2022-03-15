@@ -3,6 +3,10 @@ A utility to apply both region flag and text patches to a Dreamcast IP.BIN file.
 
 This utility will patch both the single-byte region flag(s) starting at offset `0x30` (decimal `48`), and the 28-byte region text string(s) starting at offset `0x3704` (decimal `14084`) inside of IP.BIN.
 
+<img align="center" src="https://raw.githubusercontent.com/DerekPascarella/Dreamcast-IP.BIN-Patcher/main/images/48.png">
+
+<img align="center" src="https://raw.githubusercontent.com/DerekPascarella/Dreamcast-IP.BIN-Patcher/main/images/14084.png">
+
 When rebuilding a GDI with a modified IP.BIN (e.g., shipping a translation patch), certain emulators will refuse to boot the disc image unless both of these areas are patched consistently.  While using an emulator's HLE BIOS option can avoid this issue, this BIOS can sometimes lead to compatibility issues not present in the stock Dreamcast BIOS.
 
 Note that ODEs have no such region-flag consistency requirements.  However, for perfectionist's sake, and given that many are playing Dreamcast games via emulators, this utility can be helpful for those who do want to supply a region-modified IP.BIN with their patch.
