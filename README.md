@@ -1,7 +1,7 @@
 # Dreamcast IP.BIN Patcher
 A utility to apply both region flag and text patches to a Dreamcast IP.BIN file.
 
-This utility will patch both the single-byte region flag(s) starting at offset `0x30` (decimal `48`), and the 28-byte region text string(s) starting at offset `0x3704` (decimal `14084`) inside of IP.BIN.
+This utility will patch both the single-byte region flag(s) starting at offset `0x30` (decimal `48`), and the 28-byte region text string(s) starting at offset `0x3704` (decimal `14084`), inside of IP.BIN.
 
 <img src="https://raw.githubusercontent.com/DerekPascarella/Dreamcast-IP.BIN-Patcher/main/images/48.png">
 
