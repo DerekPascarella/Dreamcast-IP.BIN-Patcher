@@ -3,7 +3,7 @@
 # Dreamcast IP.BIN Patcher v1.0
 # Written by Derek Pascarella (ateam)
 #
-# A utility to apply both region flag and text patches to a Dreamcast IP.BIN file.
+# A utility to apply both region flag and region text patches to a Dreamcast IP.BIN file.
 
 # Include necessary modules.
 use strict;
@@ -34,39 +34,39 @@ elsif(!-e $file || !-R $file || !-W $file)
 	&show_error($error);
 }
 
-# Patch Japan/Taiwan/Philipines region flag and text.
+# Patch Japan/Taiwan/Philipines region flag and region text.
 if($mode =~ /J/i)
 {
 	&patch_bytes($file, "4A", 48);
 	&patch_bytes($file, "466F72204A4150414E2C54414957414E2C5048494C4950494E45532E", 14084);
 }
-# Remove Japan/Taiwan/Philipines region flag and text.
+# Remove Japan/Taiwan/Philipines region flag and region text.
 else
 {
 	&patch_bytes($file, "20", 48);
 	&patch_bytes($file, "20202020202020202020202020202020202020202020202020202020", 14084);
 }
 
-# Patch United States/Canada region flag and text.
+# Patch United States/Canada region flag and region text.
 if($mode =~ /U/i)
 {
 	&patch_bytes($file, "55", 49);
 	&patch_bytes($file, "466F722055534120616E642043414E4144412E202020202020202020", 14116);
 }
-# Remove United States/Canada region flag and text.
+# Remove United States/Canada region flag and region text.
 else
 {
 	&patch_bytes($file, "20", 49);
 	&patch_bytes($file, "20202020202020202020202020202020202020202020202020202020", 14116);
 }
 
-# Patch Europe region flag and text. 
+# Patch Europe region flag and region text. 
 if($mode =~ /E/i)
 {
 	&patch_bytes($file, "45", 50);
 	&patch_bytes($file, "466F72204555524F50452E2020202020202020202020202020202020", 14148);
 }
-# Remove Europe region flag and text.
+# Remove Europe region flag and region text.
 else
 {
 	&patch_bytes($file, "20", 50);
