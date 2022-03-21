@@ -162,5 +162,5 @@ sub show_error
 {
 	my $error = $_[0];
 
-	die "Dreamcast IP.BIN Patcher\nWritten by Derek Pascarella (ateam)\n\n$error\n\nUsage: ip_patch <REGION> <FILE>\n";
+	die "Dreamcast IP.BIN Patcher v1.0\nWritten by Derek Pascarella (ateam)\n\n$error\n\nUsage: ip_patch <REGION> <FILE>\n";
 }
