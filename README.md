@@ -12,7 +12,7 @@ When rebuilding a GDI with a modified IP.BIN (e.g., shipping a translation patch
 Note that ODEs have no such region-flag consistency requirements.  However, for perfectionist's sake, and given that many are playing Dreamcast games via emulators, this utility can be helpful for those who do want to supply a region-modified IP.BIN with their patch.
 
 ## Current Version
-Dreamcast IP.BIN Patcher is currently at version 1.0.
+Dreamcast IP.BIN Patcher is currently at version [1.0](https://github.com/DerekPascarella/Dreamcast-IP.BIN-Patcher/raw/main/ip_patch.exe).
 
 ## Region Flags
 `J` Japan/Taiwan/Philipines
