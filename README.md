@@ -1,3 +1,5 @@
+**NOTE:** *This program's functionality is now part of [Universal Dreamcast Patcher](https://github.com/DerekPascarella/UniversalDreamcastPatcher), which combines it with patch application, patch building, and disc image format conversion in a single cross-platform GUI. Users are encouraged to use it instead.*
+
 # Dreamcast IP.BIN Patcher
 A utility to apply both region flag and region text patches to a Dreamcast IP.BIN file.
 
